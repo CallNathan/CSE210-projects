@@ -12,7 +12,7 @@ class Program
         int randomNumber = randomGen.Next(1,1000);
         string guess = "0";
         int guesses = 0;
-        string again = "yes";
+        string again;
         string againNormal = "yes";
 
         Console.WriteLine("I have picked a random number between 1 and 1000. how long till you guess?");
